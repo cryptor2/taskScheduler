@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-package com.example.demo.Service.Impl;public class ScheduleTask {
-=======
+
 package com.example.demo.Service.Impl;
 
 import com.example.demo.Entity.Schedule;
@@ -141,5 +139,4 @@ public class ScheduleTask {
             }
         });
     }
->>>>>>> 055cab5 (Initial commit)
 }

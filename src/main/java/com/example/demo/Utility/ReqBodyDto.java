@@ -1,8 +1,6 @@
 package com.example.demo.Utility;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Temporal;
-import jakarta.persistence.TemporalType;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
@@ -21,4 +19,14 @@ public class ReqBodyDto {
     private  String scheduleTitle;
 
     private String date;
+
+    @Override
+    public String toString() {
+        return "ReqBodyDto{" +
+                "email='" + email + '\'' +
+                ", scheduleDescription='" + scheduleDescription + '\'' +
+                ", scheduleTitle='" + scheduleTitle + '\'' +
+                ", date='" + date + '\'' +
+                '}';
+    }
 }
